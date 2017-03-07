@@ -1,3 +1,19 @@
 #container{
+    position: relative;
     width: 70%;
+    border-style: solid;
+    border-color: chocolate;
+    background: burlywood;
+}
+
+.relative{
+    position: relative;
+}
+
+.relative p{
+    padding-left: 5em;
+}
+
+#container{
+    position: static;
 }
